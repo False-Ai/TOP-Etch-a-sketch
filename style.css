@@ -1,18 +1,29 @@
-*{
+* {
   box-sizing: border-box;
-  margin: 0px;
-  border: 0px;
+  margin: 0;
+  padding: 0;
 }
 
-.diver{
-  height: 40px;
-  width: 40px;
-  background-color: peachpuff;
-}
-.diver:hover{
-  background-color: aqua;
-}
-
-.depth{
+.container {
+  width: 700px;
+  height: 700px;
   display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.depth {
+  display: flex;
+  flex: 1;
+}
+
+.diver {
+  flex: 1;
+  background-color: peachpuff;
+  border: 1px solid #ccc; /* Optional */
+}
+
+.diver:hover {
+  background-color: aqua;
 }
