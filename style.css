@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+}
+
+.diver{
+  height: 40px;
+  width: 40px;
+  background-color: peachpuff;
+}
+.diver:hover{
+  background-color: aqua;
+}
+
+.depth{
+  display: flex;
+}
